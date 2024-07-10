@@ -24,6 +24,7 @@
     border-radius: 8px;
     opacity: 0.8;
     background-color: white;
+    cursor: pointer;
 }
 
 .primary-text{
@@ -242,15 +243,21 @@
     background-image: url(../assets/handshake.jpg);
     background-size: cover;
     background-position: center;
+   
+    
+  }
+
+  .support-part .support-content{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-
-  .support-part .support-content{
+    height: 100%;
+    width: 100%;
     text-align: center;
-    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+    border-radius: 16px;
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2));
+    /* background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2); */
   }
 
   .support-part h3{
@@ -285,4 +292,34 @@
     background: rgb(255, 255, 255);
     border: none;
     cursor: pointer;
+  }
+
+  /* Footer part start */
+  .footer-part{
+    background: rgba(13, 19, 33, 0.03);
+    padding: 32px 0px;
+  }
+  .footer-part .footer-box{
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-part .footer-box p{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+  }
+  /* .footer-part .footer-box .icon-box{
+    gap: 24px;
+  } */
+  .footer-part .icon-box .fb-icon{
+    font-size: 36px;
+    color: rgb(0, 178, 255);
+  }
+  .footer-part .icon-box .git-icon{
+    font-size: 36px;
+    margin: 0px 24px 0px 24px;
+  }
+  .footer-part .icon-box .linkedin-icon{
+    font-size: 36px;
+    color: rgb(0, 106, 255);
   }

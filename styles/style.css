@@ -10,16 +10,16 @@
     box-sizing: border-box;
   }
 
-  ul, li, a{
+  ul, li{
     list-style: none;
     text-decoration: none;
   }
 /* Common shared styles */
 .btn{
     color: rgba(13, 19, 33, 0.7);
-    font-size: 28px;
-    font-weight: 800;
-    padding: 16px 22px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 14px 20px;
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
     opacity: 0.8;
@@ -28,6 +28,30 @@
 
 .primary-text{
     color: rgba(13, 19, 33, 0.7);
+}
+
+.container{
+  width: 1140px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.container .header-box{
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.container .common-heading-title{
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.container .common-heading-description{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  /* margin-bottom: 48px; */
 }
 
   /* Navbar part start */
@@ -75,12 +99,190 @@
     margin-bottom: 30px;
   }
   .banner-part .banner-content-box .banner-btn{
-    font-size: 28px;
-    font-weight: 800;
-    padding: 16px 22px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 24px;
     border: none;
     color: white;
     /* border: 1px solid rgb(13, 19, 33); */
     border-radius: 8px;
     background-color: rgb(13, 19, 33);
+  }
+
+  /* Development section start */
+  .development-part{
+    background: rgba(13, 19, 33, 0.02);
+    padding: 80px 90px;
+    border-radius: 16px;
+    margin-bottom: 88px;
+  }
+
+ 
+  .development-part .development-content-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 45px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.08);
+    margin-bottom: 32px;
+    /* margin-top: 48px; */
+  }
+
+  .development-part .content-box-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .development-part .development-content-box .content-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+  .development-part .development-content-box .content-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 20px 0px 20px 0px;
+  }
+
+  /* Inspiration part start */
+  .inspiration-part .inspiration-video iframe{
+    border-radius: 16px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .inspiration-part .inspiration-video{
+    width: 1140px;
+    height: 614px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+  }
+
+  /* Current target part start */
+  .current-target-part{
+    margin-top: 145px;
+    margin-bottom: 110px;
+  }
+
+  .current-target-part .current-target-box {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .current-target-part .current-target-box .target-item{
+    width: 32%;
+    height: auto;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+  }
+  .current-target-part .current-target-box .target-item h3{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin: 24px 0px 15px 0px;
+  }
+  .current-target-part .current-target-box .target-item p{
+    margin-bottom: 30px;
+  }
+  .current-target-part .current-target-box .target-item a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+  }
+  .current-target-part .current-target-box .css-bg-color{
+    background: rgba(0, 76, 232, 0.05);
+  }
+
+  /* Next target part start */
+  .next-target-part{
+    margin-bottom: 45px;
+  }
+
+  .next-target-part .next-target-box{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 36px;
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+  .next-target-box .item-content h3{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+  .next-target-box .item-content p{
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  .next-target-box .item-content a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+  }
+
+  /* Support part start */
+  .support-part{
+    margin-bottom: 75px;
+    width: 1140px;
+    height: 314px;
+    border-radius: 16px;
+    background-image: url(../assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .support-part .support-content{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+  }
+
+  .support-part h3{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .support-part p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .support-part .input-box{
+    margin-top: 40px;
+  }
+
+  .support-part .input-box .input-text{
+    width: 548px;
+    height: 57px;
+    padding: 20px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+  }
+  .support-part .input-box .submit-btn{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 16px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
   }

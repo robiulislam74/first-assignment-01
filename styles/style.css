@@ -105,7 +105,6 @@
     padding: 20px 24px;
     border: none;
     color: white;
-    /* border: 1px solid rgb(13, 19, 33); */
     border-radius: 8px;
     background-color: rgb(13, 19, 33);
   }
@@ -127,7 +126,6 @@
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.08);
     margin-bottom: 32px;
-    /* margin-top: 48px; */
   }
 
   .development-part .content-box-reverse{
@@ -243,8 +241,6 @@
     background-image: url(../assets/handshake.jpg);
     background-size: cover;
     background-position: center;
-   
-    
   }
 
   .support-part .support-content{
@@ -257,7 +253,7 @@
     text-align: center;
     border-radius: 16px;
     background-image: linear-gradient(to right,rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2));
-    /* background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2); */
+
   }
 
   .support-part h3{
@@ -308,9 +304,7 @@
     font-size: 20px;
     font-weight: 600;
   }
-  /* .footer-part .footer-box .icon-box{
-    gap: 24px;
-  } */
+
   .footer-part .icon-box .fb-icon{
     font-size: 36px;
     color: rgb(0, 178, 255);

@@ -107,6 +107,7 @@
     color: white;
     border-radius: 8px;
     background-color: rgb(13, 19, 33);
+    cursor: pointer;
   }
 
   /* Development section start */
